@@ -1,0 +1,12 @@
+SEQUENTIAL
+###REGISTER
+#pbx2;voicelab.bhnis.net;[authentication username=pbx2 password=testpass];dummy;dummy;dummy;
+#3173440000;dummy;[authentication username=3173440000 password=testpass];dummy;voicelab.bhnis.net;dummy;
+#
+#INVITE SIPIN
+8135458186;example.com;[authentication username=3173440000 password=test1pass];8132222222;voicelab.bhnis.net;209.16.123.160;
+#8135458186;209.16.123.160;[authentication username=3173440000 password=test1pass];3173440000;example.net;voicelab.bhnis.net;
+#
+#INVITE OUT
+#8132222222;voicelab.bhnis.net;[authentication username=xpbx2 password=testpass];8135458186;example.net;209.16.123.160;
+#8131111111;209.16.123.160;[authentication username=8131111111 password=test1pass];8135458186;voicelab.bhnis.net;voicelab.bhnis.net;
